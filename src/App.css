@@ -1,0 +1,39 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 680px;
+  width: 640px;
+  border-radius: 20px;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #7ed0ec;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin:3px ;
+}
+.imgButtons{
+  width: 150px;
+  height: 150px;
+}
+p{
+  margin: 0;
+  font-size: 20px;
+}
+.winBlock{
+  display: none;
+}
