@@ -15,10 +15,10 @@ function Board() {
 
     const handleClick = (index) => {
         if (cells[index].clicked) return;
-        if (iteratorTurn === 0) {
+        /*if (iteratorTurn === 0) {
             setIteratorTurn(iteratorTurn + 1);
             return;
-        }
+        }*/
         const newCells = cells.map((cell, i) =>
             i === index ? {type: turnType(), clicked: true} : cell
         );
